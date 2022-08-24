@@ -1,0 +1,39 @@
+.navbar {
+  height: 50px;
+  background-color: rgb(3, 2, 66);
+  border-bottom: 0.5px solid rgb(231, 228, 228);
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  color: #cfcfcf;
+  margin: 0px;
+
+
+  .container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .logo {
+      display: flex;
+      align-items: center;
+      span {
+        font-size: 20px;
+        font-weight: bold;
+      }
+    }
+    .items {
+      display: flex;
+      align-items: center;
+      .item {
+        display: flex;
+        align-items: center;
+        margin-right: 20px;
+        .icon {
+         font-size: 30px;
+        }
+      }
+    }
+  }
+}

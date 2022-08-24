@@ -1,0 +1,117 @@
+.announcement {
+  width: 100%;
+  display: flex;
+
+  .announcement-container {
+    flex: 6;
+    
+    .top {
+      -webkit-box-shadow: 2px 4px 10px 1px rgba(0, 0, 0, 0.47);
+      box-shadow: 2px 4px 10px 1px rgba(201, 201, 201, 0.47);
+      padding: 10px;
+      margin: 20px;
+      display: flex;
+      justify-content: space-between;
+      h1 {
+        color: lightgray;
+        font-size: 20px;
+      }
+      .link{
+      text-decoration: none;
+      color: green;
+      font-size: 16px;
+      font-weight: 400;
+      border: 1px solid green;
+      padding: 5px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    }
+    .announcement-content {
+       margin: 20px;
+
+            form{
+                display: flex;
+
+                select{
+                    margin-right: 20px;
+
+                    &:focus{
+                        box-shadow: none;
+                    }
+                }
+            }
+
+            .update-product-content{
+                display: flex;
+                flex-direction: column;
+
+                .card{
+                    width: 100%;
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    margin-top: 5px;
+                    margin-bottom: 5px;
+                    border: 2px solid #dedddd;
+                    padding: 10px;
+                    border-radius: 10px;
+
+                    .card-img-top{
+                        width: 4rem;
+
+                    }
+                    .card-tittle{
+                      font-weight: bold;
+                    }
+
+                    .card-body{
+                        display: flex;
+                        flex-direction: column;
+                        align-items: start;
+                        justify-content: center;
+                        margin-left: 5px;
+                    }
+
+                    .list-group-item{
+                        border: none;
+                        margin: 0 20px;
+                    }
+
+                    .card-buttons{
+                        display: flex;
+                        
+                        .product-update-btn{
+                            border: none;
+                            font-size: 18px;
+                            background: transparent;
+                            transition: all 0.3s ease-in-out;
+                            margin-right: 30px;
+                            padding: 5px;
+
+                            &:hover{
+                                transform: scale(1.2);
+                            }
+                        }
+
+                        .product-remove-btn{
+                            font-size: 18px;
+                            border: none;
+                            background: none;
+                            color: #cb1717de;
+                            transition: all 0.3s ease-in-out;
+                            padding: 5px;
+
+                            &:hover{
+                                transform: scale(1.2);
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+        
+    }
+  }
+}

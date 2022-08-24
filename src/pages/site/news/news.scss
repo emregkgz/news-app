@@ -1,0 +1,13 @@
+.container {
+  margin: 20px;
+  .news-content {
+    .card {
+      box-shadow: 0px 3px 8px rgb(142, 196, 244);
+      &:hover {
+        box-shadow: 0px 10px 40px rgb(93, 130, 162);
+      }
+
+      
+    }
+  }
+}
